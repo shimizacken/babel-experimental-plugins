@@ -1,3 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`optional chaining test suite should return undefined when nested object is undefined 1`] = `1628546`;
+exports[`optional chaining test suite should return undefined when nested object is undefined 1`] = `undefined`;
+
+exports[`optional chaining test suite should return zip when nested object is not undefined 1`] = `1628546`;

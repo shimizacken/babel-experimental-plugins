@@ -1,1 +1,1 @@
-export const getUserZip = (user) => user.address.zip;
+export const getUserZip = (user) => user?.address?.zip;

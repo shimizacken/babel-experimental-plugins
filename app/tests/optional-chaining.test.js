@@ -17,6 +17,10 @@ describe('optional chaining test suite', () => {
     }];
   
     it('should return undefined when nested object is undefined', () => {
-      expect(getUserZip(users[0])).toMatchSnapshot();
-  });
+      expect(getUserZip(users[1])).toMatchSnapshot();
+    });
+
+    it('should return zip when nested object is not undefined', () => {
+        expect(getUserZip(users[0])).toMatchSnapshot();
+      });
 });
