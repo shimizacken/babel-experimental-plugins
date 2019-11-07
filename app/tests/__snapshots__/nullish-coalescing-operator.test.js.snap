@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`nullish coalescing operator test suite should return undefined when nested object is undefined 1`] = `"not rent"`;
+
+exports[`nullish coalescing operator test suite should return zip when nested object is not undefined 1`] = `"not rent"`;
