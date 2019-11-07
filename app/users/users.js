@@ -1,0 +1,1 @@
+export const getUserZip = (user) => user.address.zip;
